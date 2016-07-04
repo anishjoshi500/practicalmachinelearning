@@ -1,5 +1,5 @@
 ## Practical Machine Learning - Coursera Course Project
-Please find the project report for this project on
+Please find the HTML project report HERE---> https://anishjoshi500.github.io/practicalmachinelearning/
 
 ### Background
 
