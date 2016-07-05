@@ -42,7 +42,8 @@ Check dimensions
     [1] 19622   160
     [1]  20 160
     
-Data Cleaning -
+Data Cleaning
+
 Removing all the columns with missing values
 
     train_csv_clean <- train_csv[,colSums(is.na(train_csv)) == 0]
