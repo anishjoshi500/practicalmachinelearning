@@ -55,7 +55,7 @@ library(rpart.plot)
 set.seed(123)
 </code></pre>
 
-<p>Data Loading -</p>
+<p>Data Loading</p>
 
 <pre><code>train_csv &lt;- read.csv("http://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv")
 test_csv &lt;- read.csv("http://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv")
@@ -86,7 +86,7 @@ dim(test_csv_clean)
 [1] 20 60
 </code></pre>
 
-<p>Deleting variables which are irrelevant and are of no use to us</p>
+<p>Deleting variables which are irrelevant and which will not be important for predicting the outcome</p>
 
 <pre><code>train_csv_final_clean &lt;- train_csv_clean[,-c(1:7)]
 test_csv_final_clean &lt;- test_csv_clean[,-c(1:7)]
@@ -212,7 +212,7 @@ Detection Prevalence   0.3170   0.1934   0.8362   0.8043   0.8597
 <h3>
 <a id="prediction-and-output-file-generation" class="anchor" href="#prediction-and-output-file-generation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prediction and Output File Generation</h3>
 
-<p>Prediction using Random Forest Algorithm as follows</p>
+<p>Prediction using the Random Forest Algorithm</p>
 
 <pre><code>final_prediction &lt;- predict(model, test_csv, type = "class")
 print(final_prediction)
