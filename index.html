@@ -70,7 +70,7 @@ dim(test_csv)
 [1]  20 160
 </code></pre>
 
-<p>Data Cleaning -
+<p>Data Cleaning
 Removing all the columns with missing values</p>
 
 <pre><code>train_csv_clean &lt;- train_csv[,colSums(is.na(train_csv)) == 0]
