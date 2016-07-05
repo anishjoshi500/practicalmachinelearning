@@ -1,6 +1,6 @@
 ## Practical Machine Learning - Coursera Course Project
 Please find the HTML version of the project report HERE---> https://anishjoshi500.github.io/practicalmachinelearning/
-Or Find the Entire Project Report in pmlcompleteanalysis.Rmd file
+or find the entire project report in the R markdown format in pmlcompleteanalysis.Rmd file
 
 ### Background
 
