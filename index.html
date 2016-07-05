@@ -86,7 +86,7 @@ dim(test_csv_clean)
 [1] 20 60
 </code></pre>
 
-<p>Deleting variables which are irrelevant and which will not be important for predicting the outcome</p>
+<p>Deleting variables which are irrelevant and not important in predicting the output</p>
 
 <pre><code>train_csv_final_clean &lt;- train_csv_clean[,-c(1:7)]
 test_csv_final_clean &lt;- test_csv_clean[,-c(1:7)]
